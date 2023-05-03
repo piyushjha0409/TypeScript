@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import { Person } from './components/Person';
+import { Person, HairColor } from './components/Person';
 import './App.css';
 
 const App: FC = () => {
@@ -19,7 +19,7 @@ const App: FC = () => {
   // }
   return (
     <div className="App">
-       <Person name={name} email={email} />
+       <Person name={name} email={email} hairColor={HairColor.Brown}/>
     </div>
   );
 }

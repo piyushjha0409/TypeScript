@@ -3,10 +3,11 @@ import { FC, useState, useEffect, ChangeEvent } from 'react';
 
 interface Props {
   name: string,
-  email: string
+  email: string,
+  hairColor: HairColor
 }
 
-enum HairColor {
+export enum HairColor {
     Blonde = "Your hair is blonde!",
     Brown = "Noicee color!",
     Black = "Wow!"
